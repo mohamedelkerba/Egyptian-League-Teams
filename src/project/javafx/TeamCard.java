@@ -14,8 +14,8 @@ public class TeamCard extends VBox {
         imageView.setFitHeight(100); 
 
         Label rankLabel = new Label("Rank: " + team.getRank());
+        rankLabel.setStyle("-fx-font-weight: bold;-fx-text-fill: red; ");
 
-        
         Label pointsLabel = new Label("Points: " + team.getPoints());
 
         Label matchesLabel = new Label("Matches: " + team.getMatchesPlayed());
